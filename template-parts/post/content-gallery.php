@@ -64,7 +64,7 @@
 		};
 
 		if ( is_single() && ! get_post_gallery() ) {
-
+			// Hide gallery from teaser pages
 			/* translators: %s: Name of current post */
 			the_content(
 				sprintf(
